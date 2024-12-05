@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+    image: blockchain_app
+    ports:
+      - "8081:8081"

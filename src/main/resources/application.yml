@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: blockchainSvetoslavEvtim
+
+server:
+  port: 8081
+
+encryption:
+  key: 3b8e2e9a8f2b4c6d8e9f2b4c6d8e9f2b
+
+blockchain:
+  difficulty: 4
+  mining-reward: 6.25
+  max-transactions-per-block: 3
