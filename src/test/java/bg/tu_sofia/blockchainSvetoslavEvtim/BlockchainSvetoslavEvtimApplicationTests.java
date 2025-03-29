@@ -8,6 +8,7 @@ class BlockchainSvetoslavEvtimApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// test
 	}
 
 }
