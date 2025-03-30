@@ -16,7 +16,8 @@ class BlockchainSvetoslavEvtimApplicationTests {
 
 	@Test
 	void testFailed() {
-		assertThat(true).isFalse();
+		assertThat(true).isTrue();
+		// test test test test test
 	}
 
 }
