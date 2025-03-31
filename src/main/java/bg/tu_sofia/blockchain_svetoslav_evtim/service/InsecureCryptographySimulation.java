@@ -10,9 +10,9 @@ public class InsecureCryptographySimulation {
 
     public String encrypt(String data) throws GeneralSecurityException {
         try {
-            KeyGenerator keyGen = KeyGenerator.getInstance("DES"); // DES is considered insecure
+            KeyGenerator keyGen = KeyGenerator.getInstance("AES"); // DES is considered insecure
             SecretKey secretKey = keyGen.generateKey();
-            Cipher cipher = Cipher.getInstance("DES");
+            Cipher cipher = Cipher.getInstance("AES");
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
             byte[] encryptedData = cipher.doFinal(data.getBytes());
             return Base64.getEncoder().encodeToString(encryptedData);
