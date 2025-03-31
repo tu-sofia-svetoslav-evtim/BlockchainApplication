@@ -1,8 +1,6 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.service;
+package bg.tu_sofia.blockchain_svetoslav_evtim.service;
 
 import org.junit.jupiter.api.Test;
-
-import java.security.GeneralSecurityException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

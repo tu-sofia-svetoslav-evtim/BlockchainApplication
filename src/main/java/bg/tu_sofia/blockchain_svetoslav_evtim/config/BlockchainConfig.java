@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.config;
+package bg.tu_sofia.blockchain_svetoslav_evtim.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

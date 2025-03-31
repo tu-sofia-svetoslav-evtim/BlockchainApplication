@@ -1,6 +1,6 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim;
+package bg.tu_sofia.blockchain_svetoslav_evtim;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.config.BlockchainConfig;
+import bg.tu_sofia.blockchain_svetoslav_evtim.config.BlockchainConfig;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

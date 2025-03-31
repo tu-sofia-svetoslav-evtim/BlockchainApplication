@@ -1,6 +1,6 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.model;
+package bg.tu_sofia.blockchain_svetoslav_evtim.model;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.utils.KeyUtils;
+import bg.tu_sofia.blockchain_svetoslav_evtim.utils.KeyUtils;
 
 import java.security.PrivateKey;
 import java.security.PublicKey;

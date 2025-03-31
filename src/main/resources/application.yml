@@ -1,6 +1,6 @@
 spring:
   application:
-    name: blockchainSvetoslavEvtim
+    name: blockchain_svetoslav_evtim
 
 server:
   port: 8081

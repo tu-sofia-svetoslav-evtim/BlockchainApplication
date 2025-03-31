@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>bg.tu-sofia</groupId>
-	<artifactId>blockchainSvetoslavEvtim</artifactId>
+	<artifactId>blockchain_svetoslav_evtim</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>blockchainSvetoslavEvtim</name>
+	<name>blockchain_svetoslav_evtim</name>
 	<description>Blockchain Project Svetoslav and Evtim</description>
 	<url/>
 	<licenses>

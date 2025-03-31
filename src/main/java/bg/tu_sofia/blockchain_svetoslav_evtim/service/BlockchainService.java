@@ -1,14 +1,14 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.service;
+package bg.tu_sofia.blockchain_svetoslav_evtim.service;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.config.BlockchainConfig;
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Block;
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Blockchain;
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Transaction;
-import bg.tu_sofia.blockchainSvetoslavEvtim.request.RealTransactionRequest;
-import bg.tu_sofia.blockchainSvetoslavEvtim.response.TransactionMetadataResponse;
-import bg.tu_sofia.blockchainSvetoslavEvtim.utils.CbcUtils;
-import bg.tu_sofia.blockchainSvetoslavEvtim.utils.HashUtils;
-import bg.tu_sofia.blockchainSvetoslavEvtim.utils.KeyUtils;
+import bg.tu_sofia.blockchain_svetoslav_evtim.config.BlockchainConfig;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Block;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Blockchain;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Transaction;
+import bg.tu_sofia.blockchain_svetoslav_evtim.request.RealTransactionRequest;
+import bg.tu_sofia.blockchain_svetoslav_evtim.response.TransactionMetadataResponse;
+import bg.tu_sofia.blockchain_svetoslav_evtim.utils.CbcUtils;
+import bg.tu_sofia.blockchain_svetoslav_evtim.utils.HashUtils;
+import bg.tu_sofia.blockchain_svetoslav_evtim.utils.KeyUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

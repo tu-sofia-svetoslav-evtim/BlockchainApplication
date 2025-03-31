@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.advice;
+package bg.tu_sofia.blockchain_svetoslav_evtim.advice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

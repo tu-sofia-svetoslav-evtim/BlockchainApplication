@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.response;
+package bg.tu_sofia.blockchain_svetoslav_evtim.response;
 
 public class TransactionMetadataResponse {
     private String metadata;

@@ -1,8 +1,8 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.service;
+package bg.tu_sofia.blockchain_svetoslav_evtim.service;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Transaction;
-import bg.tu_sofia.blockchainSvetoslavEvtim.request.TransactionRequest;
-import bg.tu_sofia.blockchainSvetoslavEvtim.utils.KeyUtils;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Transaction;
+import bg.tu_sofia.blockchain_svetoslav_evtim.request.TransactionRequest;
+import bg.tu_sofia.blockchain_svetoslav_evtim.utils.KeyUtils;
 import org.springframework.stereotype.Service;
 
 import java.security.KeyPair;

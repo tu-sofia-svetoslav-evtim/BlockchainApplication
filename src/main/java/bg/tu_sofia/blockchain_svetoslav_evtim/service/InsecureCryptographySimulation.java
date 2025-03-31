@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.service;
+package bg.tu_sofia.blockchain_svetoslav_evtim.service;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;

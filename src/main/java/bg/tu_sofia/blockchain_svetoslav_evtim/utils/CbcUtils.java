@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.utils;
+package bg.tu_sofia.blockchain_svetoslav_evtim.utils;
 
 
 import javax.crypto.Cipher;

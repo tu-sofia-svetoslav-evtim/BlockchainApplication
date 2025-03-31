@@ -1,11 +1,11 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.controller;
+package bg.tu_sofia.blockchain_svetoslav_evtim.controller;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Block;
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Blockchain;
-import bg.tu_sofia.blockchainSvetoslavEvtim.model.Transaction;
-import bg.tu_sofia.blockchainSvetoslavEvtim.request.RealTransactionRequest;
-import bg.tu_sofia.blockchainSvetoslavEvtim.response.TransactionMetadataResponse;
-import bg.tu_sofia.blockchainSvetoslavEvtim.service.BlockchainService;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Block;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Blockchain;
+import bg.tu_sofia.blockchain_svetoslav_evtim.model.Transaction;
+import bg.tu_sofia.blockchain_svetoslav_evtim.request.RealTransactionRequest;
+import bg.tu_sofia.blockchain_svetoslav_evtim.response.TransactionMetadataResponse;
+import bg.tu_sofia.blockchain_svetoslav_evtim.service.BlockchainService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

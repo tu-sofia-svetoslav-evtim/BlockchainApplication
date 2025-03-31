@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.model;
+package bg.tu_sofia.blockchain_svetoslav_evtim.model;
 
 import java.util.ArrayList;
 import java.util.List;

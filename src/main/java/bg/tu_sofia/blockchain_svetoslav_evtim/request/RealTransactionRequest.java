@@ -1,4 +1,4 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.request;
+package bg.tu_sofia.blockchain_svetoslav_evtim.request;
 
 public class RealTransactionRequest {
     private String receiver;

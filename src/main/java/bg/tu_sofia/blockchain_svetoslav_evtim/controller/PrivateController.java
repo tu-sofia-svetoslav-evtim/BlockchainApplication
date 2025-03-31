@@ -1,7 +1,7 @@
-package bg.tu_sofia.blockchainSvetoslavEvtim.controller;
+package bg.tu_sofia.blockchain_svetoslav_evtim.controller;
 
-import bg.tu_sofia.blockchainSvetoslavEvtim.request.TransactionRequest;
-import bg.tu_sofia.blockchainSvetoslavEvtim.service.PrivateService;
+import bg.tu_sofia.blockchain_svetoslav_evtim.request.TransactionRequest;
+import bg.tu_sofia.blockchain_svetoslav_evtim.service.PrivateService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
