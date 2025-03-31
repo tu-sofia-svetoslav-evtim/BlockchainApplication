@@ -17,7 +17,7 @@ class InsecureCryptographySimulationTest {
     }
 
     @Test
-    public void testEncryptException() {
+    void testEncryptException() {
         InsecureCryptographySimulation simulation = new InsecureCryptographySimulation();
         assertThrows(GeneralSecurityException.class, () -> simulation.encrypt(null));
     }
