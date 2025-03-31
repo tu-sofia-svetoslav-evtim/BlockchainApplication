@@ -2,6 +2,8 @@ package bg.tu_sofia.blockchainSvetoslavEvtim.service;
 
 import org.junit.jupiter.api.Test;
 
+import java.security.GeneralSecurityException;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class InsecureCryptographySimulationTest {
@@ -10,7 +12,6 @@ class InsecureCryptographySimulationTest {
     void testEncrypt() throws Exception {
         InsecureCryptographySimulation simulation = new InsecureCryptographySimulation();
         String encryptedData = simulation.encrypt("SensitiveData");
-        assertThat(encryptedData).isNotNull();
-        assertThat(encryptedData).isNotEmpty();
+        assertThat(encryptedData).isNotNull().isNotEmpty();
     }
 }
