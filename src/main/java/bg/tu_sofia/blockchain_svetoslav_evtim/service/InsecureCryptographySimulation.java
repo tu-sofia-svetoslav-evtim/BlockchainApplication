@@ -12,7 +12,7 @@ public class InsecureCryptographySimulation {
         try {
             KeyGenerator keyGen = KeyGenerator.getInstance("AES"); // DES is considered insecure
             SecretKey secretKey = keyGen.generateKey();
-            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+            Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
             byte[] encryptedData = cipher.doFinal(data.getBytes());
             return Base64.getEncoder().encodeToString(encryptedData);
