@@ -15,6 +15,7 @@ public class PrivateController {
 
     private final PrivateService privateService;
 
+    
     public PrivateController(PrivateService privateService) {
         this.privateService = privateService;
     }
